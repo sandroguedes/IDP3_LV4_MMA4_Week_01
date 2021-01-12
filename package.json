@@ -1,0 +1,22 @@
+{
+  "name": "a4_21_nodeandnpm",
+  "version": "1.0.0",
+  "description": "npm_learning_app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Hello from Node!\"",
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Sandro",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "mysql": "^2.18.1",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
