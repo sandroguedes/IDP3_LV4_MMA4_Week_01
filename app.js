@@ -11,5 +11,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-    console.log(`Server running at http://${hostname}:${port}/`); //react whenever it gets a ping from the server
+    console.log(`Server running at ${port}/`);
 });
